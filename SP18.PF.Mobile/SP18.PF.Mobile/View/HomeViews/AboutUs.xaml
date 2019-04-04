@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SP18.PF.Mobile.View.AboutUs">
+
+    <ContentPage.Content>
+        <Grid BackgroundColor="White">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="80" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="50" />
+            </Grid.RowDefinitions>
+            <Grid Grid.Row="1" Margin="20,0,20,0">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="50" />
+                    <RowDefinition Height="50" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="50" />
+                    <RowDefinition Height="60" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="*" />
+                </Grid.RowDefinitions>
+                <Image Source="http://envoc.com/uploads/think/new-envoc-logo.png" Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="3" />
+                <Image Source="https://i.pinimg.com/originals/24/8e/80/248e80a9b2ca0fb6b3edb60368a9f3e3.jpg" Grid.Row="0" Grid.Column="3" Grid.ColumnSpan="3"/>
+                <Label Grid.Row="2" Grid.Column="2" Grid.ColumnSpan="2" Text="About this project: " />
+                <Label Grid.Row="3" Grid.ColumnSpan="6" Text="This React Application was created by students enrolled in Dr. Alkadi's CMPS 383 in the Spring of 2018. Criteria established by Envoc." />
+                <Label Grid.Row="5" Grid.Column="1" Text="Aimee Sherrod" />
+                <Label Grid.Row="5" Grid.Column="2" Text="Sara Roberts" />
+                <Label Grid.Row="5" Grid.Column="3" Text=" Joseph Schenck" />
+                <Label Grid.Row="5" Grid.Column="4" Grid.ColumnSpan="2" Text=" Daniela Rayagadas " />
+                <Grid Grid.Row="6">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto" />
+                    </Grid.ColumnDefinitions>
+                </Grid>
+            </Grid>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

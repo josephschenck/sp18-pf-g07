@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SP18.PF.Mobile.Home"
+             BackgroundColor="White">
+    <ContentPage.Content>
+        <StackLayout Margin="20,0,20,10">
+            
+            <ScrollView>                
+                <StackLayout Spacing="5" 
+                    HorizontalOptions="CenterAndExpand">
+                    
+                        <Image Source="https://image.ibb.co/npa94n/msg.jpg"></Image>
+                        <Button Text="Madison Square Garden" 
+                            x:Name="btn1Location"
+                            BackgroundColor="#dbdbdb" 
+                            TextColor="Black"
+                            Clicked="Location1_Clicked"/>
+                        <Image Source="https://image.ibb.co/nvXp4n/mbs.jpg"></Image>
+                        <Button Text="Mercedes Benz Superdome" 
+                            x:Name="btn2Location"
+                            BackgroundColor="#dbdbdb" 
+                            TextColor="Black"
+                            Clicked="Location2_Clicked"/>
+                        <Image Source="https://image.ibb.co/nhdU4n/rra.jpg"></Image>
+                        <Button Text="Red Rock Ampitheatre" 
+                            x:Name="btn3Location"
+                            BackgroundColor="#dbdbdb" 
+                            TextColor="Black"
+                            Clicked="Location3_Clicked"/>
+                        <Image Source="https://image.ibb.co/nmCdx7/hwb.jpg"></Image>
+                        <Button Text="Hollywood Bowl" 
+                            x:Name="btn4Location"
+                            BackgroundColor="#dbdbdb" 
+                            TextColor="Black"
+                            Clicked="Location4_Clicked"/>
+                        <Image Source="https://image.ibb.co/jkxdx7/sc.jpg"></Image>
+                        <Button Text="Staples Center" 
+                            x:Name="btn5Location"
+                            BackgroundColor="#dbdbdb" 
+                            TextColor="Black"
+                            Clicked="Location5_Clicked"/>
+                    
+                </StackLayout>
+                
+            </ScrollView>
+            <AbsoluteLayout>
+                <Button Text=" About Us " 
+                x:Name="btnAboutUs" 
+                        WidthRequest="175"
+                BackgroundColor="#3897F0" 
+                TextColor="White"  
+                Clicked="AboutUs_Clicked"
+                        AbsoluteLayout.LayoutBounds="0, 0" 
+                            AbsoluteLayout.LayoutFlags="PositionProportional"/>
+                <Button Text="Contact Us" 
+                x:Name="btnContactUs"
+                        WidthRequest="175"
+                BackgroundColor="#3897F0" 
+                TextColor="White"
+                Clicked="ContactUs_Clicked"
+                        AbsoluteLayout.LayoutBounds="1, 0" 
+                            AbsoluteLayout.LayoutFlags="PositionProportional"/>
+                
+            </AbsoluteLayout>
+            
+            
+            
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

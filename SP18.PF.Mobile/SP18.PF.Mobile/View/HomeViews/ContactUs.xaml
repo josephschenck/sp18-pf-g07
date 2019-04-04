@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SP18.PF.Mobile.View.ContactUs">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Got any questions? Contact us using the button below."
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+            <Label Text="You also can contact us at 383group07@gmail.com "
+                VerticalOptions="Center" 
+                HorizontalOptions="Center" />
+            <Label Text="or one of our Southeastern email addresses."
+                VerticalOptions="Center" 
+                HorizontalOptions="Center" />
+            <Label Text=""
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="Center" />
+            <Button Text="Send Email" 
+                    Clicked="SendEmail_OnClicked"
+                    />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
