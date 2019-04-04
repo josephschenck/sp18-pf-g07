@@ -1,3 +1,10 @@
+PROJECT CREATED BY: 
+
+Aimee Sherrod
+Sara Roberts
+Joseph Schenk
+Daniela Rayagadas
+
 AZURE LINK:
 https://sp18-pf-g07.azurewebsites.net/
 
