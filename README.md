@@ -5,6 +5,10 @@ Sara Roberts
 Joseph Schenk
 Daniela Rayagadas
 
+This is a reupload of the original repository from https://bitbucket.org/selucmps383/sp18-pf-g07/src/master/
+for the purposes of being able to make any changes I wish to make in the future given that the original is now locked 
+by the administrators at ENVOC.
+
 AZURE LINK:
 https://sp18-pf-g07.azurewebsites.net/
 
