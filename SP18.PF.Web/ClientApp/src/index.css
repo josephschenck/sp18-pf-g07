@@ -1,0 +1,178 @@
+@media (max-width: 767px) {
+    /* On small screens, the nav menu spans the full width of the screen. Leave a space for it. */
+    body {
+        padding-top: 50px;
+    }
+}
+
+/*Footer CSS*/
+footer{
+    background-color:rgb(212, 211, 211);
+    box-sizing:border-box;
+    width:100%;
+    text-align:left;
+    padding:100px 100px;
+    margin-top:80px;
+    bottom:0;
+  }
+  
+  .footer-navigation h3{
+    margin:0;
+    font:normal 36px;
+    margin-bottom:20px;
+  }
+  
+  .footer-navigation h3 a{
+    text-decoration:none;
+  }
+  
+  .footer-navigation h3 span{
+    color:#5c5c5c;
+  }
+  
+  .footer-navigation p.company-name{
+    color:#8f9296;
+    font-size:14px;
+    font-weight:normal;
+    margin-top:20px;
+  }
+
+  
+  span.new-line-span{
+    display:block;
+    font-weight:normal;
+    display:block;
+    font-weight:normal;
+    font-size:14px;
+    line-height:2;
+  }
+  
+  .footer-about h4{
+    display:block;
+    font-size:14px;
+    font-weight:bold;
+    margin-bottom:20px;
+  }
+  
+  .footer-about p{
+    line-height:20px;
+    color:#92999f;
+    font-size:13px;
+    font-weight:normal;
+    margin:0;
+  }
+
+  /*Home Page CSS*/
+
+  .item1 {
+    grid-area: myArea;
+  }
+  .grid-container-home {
+    display: grid;
+    grid-template-areas: 'myArea myArea';
+    grid-gap: 10px;
+    background-color: rgba(226, 226, 226, 0.733);
+    padding: 10px;
+  }
+  .grid-container-home > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 15px;
+  }
+  /* CARDS */
+
+  .ui.card {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    display: inline-block;
+    margin: 10px;
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    max-width: 320px;
+    width: 320px;
+    height: 450px;
+    max-height: 450px;
+    
+  }
+  
+  .ui.card,
+  .ui.cards>.card {
+    padding : 10px;
+    text-align: center;
+    margin: 10px;
+    background-color: rgb(226, 224, 224);
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+  }
+
+  .ui.card>.content>.description{
+    height: 55px;
+  }
+
+  .ui.card>.content>a.header,
+  .ui.cards>.card>.content>a.header,
+  .ui.card .meta,
+  .ui.cards>.card .meta,
+  .ui.card>.content>.description,
+  .ui.cards>.card>.content>.description,
+  .ui.card>.extra a:not(.ui),
+  .ui.cards>.card>.extra a:not(.ui) {
+    text-align: left;
+    color: rgb(43, 43, 43);
+    font-weight: normal;
+    font-size: 13px;
+    margin: 10px;
+  }
+
+  .ui.card>.content>.description.extra{
+      border: none;
+      color: white;
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+  }
+  
+  .header{
+    padding: 10px;
+
+  }
+  
+  .test{
+    text-align: center;
+  }
+
+  /* Standard Page Layout CSS*/
+
+  .grid-container-pages {
+    display: grid;
+    grid-template-columns: auto;
+    background-color: rgba(226, 226, 226, 0.733);
+    padding: 10px;
+  }
+  .grid-item-pages {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    text-align: center;
+  }
+
+  /* Tables */
+  .ui.table
+{
+    border: 1px solid #ccc;
+    padding: 5px;
+    width: 100%;
+    margin: 5% 0;
+    box-shadow: 3px 3px 2px #ccc;
+    transition: 0.5s;
+}
+
+.ui.table>.header{
+    margin: 20%;
+    text-align: center;
+}
+  

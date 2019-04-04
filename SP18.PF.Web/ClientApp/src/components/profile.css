@@ -1,0 +1,40 @@
+
+h1.title {
+    font-size: 30px;
+    font-weight: 200;
+    text-align : center;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 1);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+    color : black;
+    background-color: snow;
+    
+
+}
+
+.card:hover {
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.profile-button {
+    border: inset;
+    display: inline-block;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+}
+
+p {
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+
+
